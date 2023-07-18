@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(90, 85, 85);
+    font: 15pt normal Arial;
+}
+
+h1 {
+    font-family: 'Belanosima';
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    width: 600px;
+    background: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+}
+
+div#div1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+select#select {
+    width: 250px;
+}
+
+div#div-select {
+    display: flex;
+    justify-content: center;
+}
+
+div#div-analisar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+input#txtanalisar, input#txtadicionar {
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 13pt;
+    transition: 0.2s;
+}
+
+input#txtanalisar:hover, input#txtadicionar:hover {
+    background-color: black;
+    color:white;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    font-style: italic;
+    color: white;
+    margin-top: 25px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+a:hover {
+    scale: 1.2;
+}
